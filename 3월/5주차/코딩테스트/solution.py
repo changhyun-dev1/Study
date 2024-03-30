@@ -1,5 +1,4 @@
 # 두 큐 합 같게 만들기
-
 from collections import deque
 def solution(queue1, queue2):
     answer = 0
@@ -22,4 +21,3 @@ def solution(queue1, queue2):
 
 
 # 네트워크
-# 어려워서 패스
