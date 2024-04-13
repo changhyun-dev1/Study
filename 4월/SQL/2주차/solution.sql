@@ -11,7 +11,7 @@ AND ANIMAL_TYPE = 'Dog'
 ORDER BY NAME
 
 # 중성화 여부 파악하기
-SELECT ANIMAL_ID, NAME, IF(SEX_UPON_INTAKE LIKE '%Neutered%' or SEX_UPON_INTAKE LIKE '%Spayed%','O','X') as '중성화' 
+SELECT ANIMAL_ID, NAME, IF(SEX_UPON_INTAKE LIKE '%Neutered%' or SEX_UPON_INTAKE LIKE '%Spayed%','O','X') AS '중성화' 
 FROM ANIMAL_INS
 
 # 오랜 기간 보호한 동물(2)
